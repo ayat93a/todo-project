@@ -1,0 +1,103 @@
+body {
+    background-image: url("images/bakgr.jfif")
+      }
+  h1 {
+      color: 886F6F;
+      font-family: "Lucida Handwriting" ;
+      font-style: oblique;
+      font-size: 80px;
+      font-size:10vw;
+      margin-left: 200px;
+      margin-bottom: -50px
+  }
+  h2 {
+    color: 886F6F;
+    font-family: "Lucida Handwriting" ;
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 0px;
+}
+@keyframes example {
+    0%   { right:80px; top:0px;}
+    25%  {right:100px; top:0px;}
+    50%  { right:100px; top:200px;}
+    75%  { right:100px; top:200px;}
+    100% { right:100px; top:0px;}
+
+}
+div.logo {
+    margin-left: 1160px;
+    margin-top: -160px;
+    width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}    
+    a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        color: 480032;
+    }
+    li {
+        display: inline;
+      }
+    .nave {
+        background-color: EED7CE;
+        overflow: hidden;
+      }
+div.nave {
+    
+    font-family: "Lucida Handwriting";
+    font-style: oblique;
+    font-size: 20px; 
+    margin-top: 70px;
+}
+.colnav {
+    color: DB6B97;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+}
+    li a {
+      display: block;
+      padding: 8px;
+    }
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }   
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+         div.gallery img {
+        width: 100%;
+        height: auto;
+         }
+         h4{
+            font-family: "Lucida Handwriting";
+            font-style: oblique;
+            font-size: 20px; 
+            margin-top: 70px;
+            color: 886F6F;  
+           
+        } 
+        h5{
+            font-family: "Lucida Handwriting";
+            font-style: oblique;
+            font-size: 20px; 
+            margin-top: 70px;
+            color: 886F6F;   
+        } 
