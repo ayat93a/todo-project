@@ -4,7 +4,7 @@ var txt = prompt("Enter your gender here : ");
 var num = prompt("Enter your age here : ");
 var confirm = confirm ('are you sure')
 
-/*var gtr;
+var gtr;
  function myFunction() {
     if (txt == female) {
       grt = "miss"
@@ -14,8 +14,8 @@ var confirm = confirm ('are you sure')
         grt == "please add a defined gender"
     } 
 };
-alert ('Hi, ' + grt + yourName);*/
-/*
+alert ('Hi, ' + grt + yourName);
+
 var age;
  function myFunction() {
     if (num = 0 || num <= 0 ) {
@@ -24,4 +24,4 @@ var age;
         age = num 
     } 
  };
-alert (age) ;*/
+alert (age) ;
