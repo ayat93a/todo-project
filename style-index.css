@@ -1,3 +1,4 @@
+/* head */
 body {
     background-image: url("images/bakgr.jfif")
       }
@@ -5,99 +6,104 @@ body {
       color: 886F6F;
       font-family: "Lucida Handwriting" ;
       font-style: oblique;
-      font-size: 80px;
       font-size:10vw;
-      margin-left: 200px;
+      margin-left: 50px;
       margin-bottom: -50px
   }
   h2 {
     color: 886F6F;
     font-family: "Lucida Handwriting" ;
     font-style: oblique;
-    font-size: 20px;
-    margin-left: 600px;
+    margin-left: 400px;
     margin-top: 0px;
 }
-@keyframes example {
-    0%   { right:80px; top:0px;}
-    25%  {right:100px; top:0px;}
-    50%  { right:100px; top:200px;}
-    75%  { right:100px; top:200px;}
-    100% { right:100px; top:0px;}
-
-}
+/*logo*/
 div.logo {
-    margin-left: 1160px;
-    margin-top: -160px;
-    width: 100px;
-  height: 100px;
-  position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
+  margin-left: 1160px;
+  margin-top: -160px;
+  width: 80px;
+height: 80px;
+position: relative;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 30;
 }    
-    a:link {
-        text-decoration: none;
-      }
-      a:hover {
-        color: 480032;
-    }
-    li {
-        display: inline;
-      }
-    .nave {
-        background-color: EED7CE;
-        overflow: hidden;
-      }
-div.nave {
-    
-    font-family: "Lucida Handwriting";
-    font-style: oblique;
-    font-size: 20px; 
-    margin-top: 70px;
+@keyframes example {
+    0%   { right:40px; top:0px;}
+    25%  {right:60px; top:0px;}
+    50%  { right:60px; top:px;}
+    75%  { right:50px; top:0px;}
+    100% { right:390px; top:0px;}
 }
-.colnav {
-    color: DB6B97;
+
+/*nav bar*/
+a:link {
+  font-size: 20px; 
+  text-decoration: none;
+  font-family: "Lucida Handwriting";
+  font-style: oblique;
 }
+a:hover {
+  color: 480032;
+}
+li {
+  display: inline;
+}
+.nave {
+  background-color: EED7CE;
+  margin-top: 130px; 
+  padding: 15px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
   }
-  
   li {
     float: right;
 }
     li a {
-      display: block;
-      padding: 8px;
+      padding: 20px;
     }
-    div.gallery {
-        margin: 5px;
-        border: 1px solid #ccc;
-        float: left;
-        width: 180px;
-      }   
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
-         div.gallery img {
-        width: 100%;
-        height: auto;
-         }
-         h4{
-            font-family: "Lucida Handwriting";
-            font-style: oblique;
-            font-size: 20px; 
-            margin-top: 70px;
-            color: 886F6F;  
-           
-        } 
-        h5{
-            font-family: "Lucida Handwriting";
-            font-style: oblique;
-            font-size: 20px; 
-            margin-top: 70px;
-            color: 886F6F;   
-        } 
+
+  /*body , pic sec */ 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/*footer*/
+h4 {
+      font-family: "Lucida Handwriting";
+      font-style: oblique;
+      font-size: 20px; 
+      margin-top: 70px;
+      color: 886F6F;  
+     
+  } 
+  h5{
+      font-family: "Lucida Handwriting";
+      font-style: oblique;
+      font-size: 20px; 
+      margin-top: 70px;
+      color: 886F6F;   
+  } 
