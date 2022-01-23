@@ -25,39 +25,42 @@ function inputAge() {
 inputAge();
 //*added for task 6
 var userStatus ;
-if (confirm ('Are you a student ?')) {
- if ('Are you a student ?' == 'ok'){
-var userStatus = "student" ;
-} else if ('Are you a student ?' == 'cancel') { 
-  var status = "not a student"; 
-} else {
-  var userStatus = "invalid" ;
-}
-}
+function inputStat (){
+  if (confirm ('Are you a student ?')) {
+    if ('Are you a student ?' == 'ok'){
+    userStatus == "student" ;
+   } else if ('Are you a student ?' == 'cancel') { 
+   userStatus == "not a student"; 
+   } else {
+    userStatus =="invalid" ;}
+  }
+};
+inputStat ()
 var needHelp ;
+function help (){
 if (confirm ('Do you like to use a mobile app for our site?')) {
  if ('Do you like to use a mobile app for our site?' == 'ok'){
-var needHelp = "prefer to have a mobile app" ;
+  needHelp == "prefer to have a mobile app" ;
 }else if ('Do you like to use a mobile app for our site?' == 'cancel'){
-   var needHelp = "dont like to use app";
+    needHelp == "dont like to use app";
 } else { 
-  var needHelp = "invalid" ;}
-}
+   needHelp == "invalid" ;}
+} };
+help ();
 var heared ;
+function hear(){
 if (confirm ('Do you heared about us befor?')) {
- if ('Do you heared about us befor?' == 'ok') {
-var heared = "heared about todo befor" ;
-} else if ('Do you heared about us befor?' == 'cancel') { 
-  var heared = "dont heared about todo befor"; 
+ if ('Do you heared about us befor?' === 'ok') {
+ heared == "heared about todo befor" ;
+} else if ('Do you heared about us befor?' === 'cancel') { 
+   heared == "dont heared about todo befor"; 
 } else {
-  var heared = "invalid" ;
+   heared == "invalid" ;
 } 
-}
-var confirm = confirm('are you sure?') 
-let userinfo = [yourName,txt , num, inputAge() ,  userStatus , needHelp , heared ];
-alert (userinfo);
-for (var i=0 ; i<7 ; i++) ;
-alert (userinfo.i);
-
-
-
+}  };
+hear();
+var conferm = confirm('are you sure?');
+  var userinfo = [yourName, txt , num, userStatus , needHelp ,heared ];
+alert (userinfo)
+/*for (var i=0 ; i<7 ; i++) ;
+alert (userinfo.i);*/
