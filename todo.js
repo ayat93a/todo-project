@@ -8,7 +8,7 @@ function sayhi() {
   } else if (txt == "male") {
     greeting = "mr ";
   } else {
-    greeting == " "
+    greeting =" "
   }
   alert('Hi, ' + greeting + yourName);
 };
