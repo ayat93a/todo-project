@@ -8,7 +8,7 @@ function sayhi() {
   } else if (txt == "male") {
     greeting = "mr ";
   } else {
-    greeting =" "
+    greeting = ""
   }
   alert('Hi, ' + greeting + yourName);
 };
@@ -23,5 +23,44 @@ function inputAge() {
   }
 };
 inputAge();
-var confirm = confirm('are you sure')
-
+//*added for task 6
+var userStatus ;
+function inputStat (){
+  if (confirm ('Are you a student ?')) {
+    if ('Are you a student ?' == 'ok'){
+    userStatus == "student" ;
+   } else if ('Are you a student ?' == 'cancel') { 
+   userStatus == "not a student"; 
+   } else {
+    userStatus =="invalid" ;}
+  }
+};
+inputStat ()
+var needHelp ;
+function help (){
+if (confirm ('Do you like to use a mobile app for our site?')) {
+ if ('Do you like to use a mobile app for our site?' == 'ok'){
+  needHelp == "prefer to have a mobile app" ;
+}else if ('Do you like to use a mobile app for our site?' == 'cancel'){
+    needHelp == "dont like to use app";
+} else { 
+   needHelp == "invalid" ;}
+} };
+help ();
+var heared ;
+function hear(){
+if (confirm ('Do you heared about us befor?')) {
+ if ('Do you heared about us befor?' === 'ok') {
+ heared == "heared about todo befor" ;
+} else if ('Do you heared about us befor?' === 'cancel') { 
+   heared == "dont heared about todo befor"; 
+} else {
+   heared == "invalid" ;
+} 
+}  };
+hear();
+var conferm = confirm('are you sure?');
+  var userinfo = [yourName, txt , num, userStatus , needHelp ,heared ];
+alert (userinfo)
+/*for (var i=0 ; i<7 ; i++) ;
+alert (userinfo.i);*/
